@@ -15,4 +15,5 @@ WORKDIR /var/www/html
 EXPOSE 80/tcp
 
 #RUN APache http server to the foreground
+
 CMD ["httpd", "-D", "FOREGROUND"]
